@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: 0 none !important;
+    border: 0 none;
+}
+
+html, body {
+    font: 12px 'Verdana';
+    color: #474747;
+}
+
+#logo img {
+    float: left;
+    margin-top: 35px;
+    width: 750px;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.LogoUT {
+    color: transparent;
+    width: 280px;
+    margin-top: 37px;
+    right: 5%;
+}
+
+a {
+    color: #3d96db;
+    text-decoration: none;
+}
+
+header {
+    background: url('bg_header.png') repeat-x scroll center 0 #f1f0f0;
+    box-sizing: content-box;
+    height: 170px;
+	display: block;
+    width: 100%;
+    float: left;
+}
+
+footer {
+   position: absolute;
+   margin-top: 90%;
+   width: 100%;
+   z-index: 0;
+   background: url("bg_footer.png") repeat scroll center 0 transparent;
+   box-sizing: content-box;
+   height: 150px;
+}
+
+footer #enderecoFooter {
+    float: left;
+    margin-top: 27px;
+    text-align: center;
+    width: 100%;
+    color: #acdafe;
+}
+
+#acessibilidade {
+    float: right;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#acessibilidade .lang {
+    margin-left: 10px;
+}
+
+#acessibilidade .lang a {
+    float: left;
+    height: 17px;
+    width: 26px;
+    background-color: #f1f0f0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#acessibilidade li {
+    float: left;
+    margin-left: 28px;
+    font-size: 12px;
+}
+
+#acessibilidade li.sizeFonte {
+    margin-left: 9px;
+}
+
+#acessibilidade #lang_br:hover, #acessibilidade #lang_br.enabled {
+    background-position: 0 -17px;
+}
+
+#acessibilidade li a {
+    color: #9a9999;
+    text-decoration: none;
+}
+
+

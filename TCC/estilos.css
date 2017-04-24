@@ -1,9 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
-    outline: 0 none !important;
-    border: 0 none;
 }
 
 html, body {
@@ -41,17 +38,16 @@ header {
     height: 170px;
 	display: block;
     width: 100%;
-    float: left;
 }
 
-footer {
-   position: absolute;
-   margin-top: 90%;
-   width: 100%;
-   z-index: 0;
-   background: url("bg_footer.png") repeat scroll center 0 transparent;
-   box-sizing: content-box;
-   height: 150px;
+footer { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    background: url("bg_footer.png") repeat scroll center 0 transparent;
+    box-sizing: content-box;
+    height: 150px;
 }
 
 footer #enderecoFooter {
@@ -103,4 +99,38 @@ footer #enderecoFooter {
     text-decoration: none;
 }
 
+main {
+    background-color: #acdafe;
+    height: 300px;
+    width: 360px;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    margin-top: 6px; 
+    border-radius: 20%;
+    border: solid 2px;
+}
 
+#login{
+    margin-top: 50px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+    margin-right: 35px; 
+}
+
+#login h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#login label{
+    margin-bottom: 10px;   
+}
+
+#login input{
+    margin-bottom: 10px;   
+}
+
+#login button{
+    margin-top: 30px;   
+}

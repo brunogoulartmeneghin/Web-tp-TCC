@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <title>TCC</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -39,14 +39,18 @@
 	</header>
 	<main>
 		<section id="login" class="content">
-			<h1>Login</h1>
+			<h1>Cadastro</h1>
 			<form action="pagenoexist.html" method="post">
 		        <label for="matricula">Matrícula: </label>
 		        <input type="text" name="matricula" pattern="[0-9]{12}" required><br>
+		        <label for="aluno">Nome: </label>
+		        <input type="text" name="nome" patten="[A-Za-z]*" required><br>
 		        <label for="senha">Senha: </label>
 		        <input type="text" name="senha" required><br>
-		        <button type="submit">Entrar</button>
-		        <button>Cadastrar</button>
+		        <label for="email">Email: </label>
+		        <input type="text" name="email" required><br>
+		        <button type="submit">Cadastrar</button>
+		        <button href="/index.html" type="submit">Voltar</button>
 			</form>
 		</section>
 	</main>
